@@ -1,0 +1,46 @@
+{
+  "name": "generator-zyncro",
+  "version": "0.1.5",
+  "description": "Yeoman Zyncro generator",
+  "keywords": [
+    "yeoman-generator",
+    "angular",
+    "angularjs",
+    "boilerplate",
+    "ngboilerplate",
+    "scaffold",
+    "enterprise",
+    "framework",
+    "module",
+    "client",
+    "grunt",
+    "karma",
+    "express",
+    "app"
+  ],
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "pedroaspiazu/zyncro-generator",
+  "author": {
+    "name": "Pedro Aspiazu",
+    "email": "",
+    "url": "https://github.com/pedroaspiazu"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "touch": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
